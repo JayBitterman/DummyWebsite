@@ -1,0 +1,127 @@
+/* Center elements on the page */
+body {
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.08)), url("pexels-binyamin-mellish-186077.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+  }
+  
+  /* Style the tab icon */
+  a span::before {
+    content: url("icons8-hammer-64.png");
+    padding-right: 0.5em;
+    vertical-align: middle;
+    display:inline-block;
+}
+
+  /* Style the header and footer */
+  header, footer {
+    width: 100%;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Style the main content area */
+  main {
+    width: 80%;
+    text-align: center;
+    padding: 1em;
+  }
+  
+  /* Style the search input and button */
+  #service-search {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.6);
+    padding: 0.5em;
+    margin: 0.5em;
+    font-size: 1em;
+  }
+  
+  #search-button {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.63);
+    padding: 0.5em 1em;
+    margin: 0.5em;
+    font-size: 1em;
+    background-color: #90ee90d0;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the service cards */
+  .service-card {
+    background-color: rgba(255, 255, 255, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the service card content */
+  .service-card h3 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0.5em;
+  }
+  
+  .service-card p {
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    margin-top: 0;
+  }
+  
+  /* Style the service buttons */
+  .service-button {
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .service-button:hover {
+    background-color: #3e8e41;
+  }
+
+  /* Style the service card image */
+.service-card img {
+    width: 10%;
+    height: auto;
+    max-width: 10%;
+    object-fit: contain;
+  }
+
+/* Style the service cards container */
+.service-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the service cards */
+  .service-card {
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.5);
+    max-width: 30%;
+    width: 30%;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
